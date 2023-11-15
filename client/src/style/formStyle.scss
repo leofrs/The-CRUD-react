@@ -1,0 +1,42 @@
+.formContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  .addForm {
+    padding: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    input {
+      width: 250px;
+      padding: 10px;
+      border: 1px solid gray;
+    }
+
+    textarea {
+      padding: 10px;
+    }
+
+    button {
+      border: none;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 15px;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}

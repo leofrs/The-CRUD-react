@@ -1,52 +1,65 @@
 <h1 align='center'>
     <img src='./src/assets/vestuario.png'>
-    <p>As roupas da coroa feitas para você</p>
+    <p>A integração com o bados de dados que você precisa</p>
 </h1>
 
 ## 📕 Sobre
 
-**The clothing** foi desenvolvido para melhorar e entender como utilizar o **useRef** - para evitar a re-render dos formuláriose e ter com isso um melhor desempenho, **custom hooks** - utilizado para separar o que é código puramente javascript do que é JSX e com isso melhorar a organização do código, **Redux Toolkit** - utilizado para o gerenciamento do carrinho.
+**The CRUD** foi desenvolvido para entender como funciona a integração entre o front-end, servidor e banco de dados de uma forma simples e eficaz. O CRUD foi escolhido por ser o tipo de ação que o usúario mais executada quando está logado a rede. Seja para realizar requisições, preencher dados e deletar dados de um armazenamento. Todo o projeto foi escrito utilizando a linguagem de programção JavaScript. O front-end ficou ao encargo do React, servidor com node e express e o banco de dados uilizado foi o mysql.
 
 ## 🛠️ Recursos Utilizados
 
 - React;
-- [Custom Hooks](https://www.w3schools.com/react/react_customhooks.asp);
-- Hooks (useState, [UseRef](https://www.w3schools.com/react/react_useref.asp));
-- react-router-dom;
-- react-icons;
-- Sass;
-- Firebase;
-- Redux Toolkit;
+- Node;
+- Express;
+- MySQl;
+- Axios;
 
 ## 👨🏾‍💻 Como rodar o projeto na sua máquina
 
 ```bash
 # Com a sua chave SSH ativada, selecione a pasta onde você quer colocar esse projeto, abra o terminal nela e depois copie e cole o seguinte comando no seu terminal:
 
-$ git clone git@github.com:leofrs/website-vestuario.git
+$ git clone git@github.com:leofrs/The-CRUD-react.git
 ```
 
 Após ter feito o clone, instale as dependências necessárias para rodar o projeto. Com a pasta do projeto aberta no terminal, execute os seguintes comandos um por vêz
+
+1 - Vá na pasta do client e instale as seguintes dependências
 
 ```bash
 # Se você utiliza npm
 $ npm i
 $ npm i react-router-dom
-$ npm i react-icons
-$ npm i firebase
-$ npm i sass
+$ npm i axios
 ```
 
 ```bash
 # Se você utiliza yarn
 $ yarn i
 $ yarn add react-router-dom
-$ yarn add react-icons
-$ yarn add firebase
-$ yarn add sass
+$ yarn add axios
 ```
 
-obs: Como este projeto foi criado com o vite, execute o comando **npm run dev** para rodar em sua máquina.
+2 - Vá na pasta do server e instale as seguintes dependências
+
+```bash
+# Se você utiliza npm
+$ npm i nodemon
+$ npm i mysql
+$ npm i express
+$ npm i cors
+```
+
+```bash
+# Se você utiliza yarn
+$ yarn add nodemon
+$ yarn add mysql
+$ yarn add express
+$ yarn add cors
+```
+
+obs: Como este projeto foi criado com o vite, execute o comando **npm run dev** na pasta do client para rodar em sua máquina. E **npm start** para rodar o servidor.
 
 ## 🧾 Licença
 
